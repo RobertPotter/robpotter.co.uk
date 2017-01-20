@@ -10,3 +10,15 @@
     font-style: normal;
 
 }
+
+#Title
+	{
+		color: #000; text-align: center; margin: 0 auto; font-size:50px; width:100%;
+	}
+
+@media only screen and (max-width: 500px) {
+	#Title
+	{
+		color: #000; text-align: center; margin: 0 auto; font-size:100px; width:100%;
+	}
+}
