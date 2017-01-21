@@ -22,3 +22,43 @@
 		color: #000; text-align: center; margin: 0 auto; font-size:100px; width:100%;
 	}
 }
+
+body {
+  background: #FFF;
+  margin: 0;
+  font-family: 'Oswald';
+  color: #000;
+}
+
+.menuContainer
+{
+	width: 7%;
+	text-align: center;
+	margin:0 auto;
+}
+
+.menuItem
+{
+	margin-top:0 auto;
+	text-align: center;
+	margin-top: 10px;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+	display: inline-block;
+	padding: 5px;
+
+}
+
+
+.menuItem:hover
+{
+	cursor: pointer;
+	color: #FFF;
+	margin-top:0 auto;
+	text-align: center;
+	margin-top: 10px;
+	background: #2D00BF;
+		-webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
