@@ -25,9 +25,11 @@
 
 body {
   background: #FFF;
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Oswald';
   color: #000;
+  width: 50%;
+  font-size: 1em;
 }
 
 .menuContainer
@@ -62,3 +64,16 @@ body {
     transition: all 0.25s;
 }
 
+a{
+	text-decoration: none;
+	color:#5E97A8;
+}
+a:hover
+{
+	text-decoration: none;
+	color:#61747d;
+}
+a:visted
+{
+	color:#5E97A8;
+}
